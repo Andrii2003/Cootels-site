@@ -1,0 +1,462 @@
+  
+
+@media ( max-width:1199px ) {
+    .container {
+        max-width: 970px;
+    }
+    .header_main_text {
+        width: 100%;
+    }
+    .header_main {
+        flex-wrap: wrap;
+
+    }
+    .header_main_text h3 {
+        width: 80%;
+        margin-left: -5%;
+    }
+    .header_main_text p {
+        width: 70%;
+        text-align: center;
+        
+    }
+    .header_main_text {
+        padding-top: 30px;
+        margin-left: 26%;
+   
+    }
+    .btn_header_main{
+        margin-left: 23%;
+    }
+    .header_main {
+        height: fit-content;
+    }
+    .header_images {
+        width: 100%;
+        margin-top: 7%;
+
+    }
+    .About_us {
+        height: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header_images {
+        justify-content: center;
+    }
+    .img_about_us{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6%;
+        padding-top: 50px;
+    }
+    .About_us_main p, h3 {
+        width: 70%;
+        margin-left: 9%;
+        text-align: center;
+
+    }
+    .btn_about_us {
+        margin-left: 34%;
+        
+    }
+    .About_us_main h3 {
+        margin-left: 3%;
+    } 
+    .about_us_text_inner {
+            margin-top: 0px;
+    }
+    .benefit {
+        height: fit-content;
+        flex-wrap: wrap;     
+        flex-direction: column;
+    }
+    .frame {
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .frame_inner {
+        flex-direction: column;
+        
+    }
+    .frame_inner_text h3  {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    }
+    .frame_inner_text p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .image_benefit {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+    .img_benefit_bottom {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+    .frame_main {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .frame_main_text_top  {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .frame_main_text_bottom {
+        margin-left: 2%;
+        text-align: center;
+    }
+    .frame_main_text {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reservation_inner_text_top {
+        width: 100%;
+    }
+    .reservation_inner {
+        padding-top: 150px;
+    }
+    .reservation_main {
+        padding-top: 5%;
+        flex-wrap: wrap;
+        gap: 10%;
+        height: fit-content;
+    }    
+    .reservation_main_first {
+        width: 40%;
+        margin-left: 5%;
+    }
+    .reservation_main_two {
+        width: 40%;
+    }
+    .reservation_main_three {
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+    .room {
+        height: fit-content;
+    }
+    .reservation {
+        height: fit-content;
+    }
+    .room_frame {
+        flex-wrap: wrap;
+        height: fit-content;
+        justify-content: center;
+
+    }
+    .room_left {
+        height: fit-content;
+    }
+    .room_right {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;        
+    }
+    .testimoni {
+        height: 690px;
+    }
+    .testimoni_main {
+        padding-top: 15%;
+        
+    }
+    .footer_main {
+        width: 100%;
+    }
+    .frame {
+        width: 100%;
+    } 
+    .frame_main {
+        width: 100%;
+    }
+    .footer_reservation {
+        margin-right: 100px;
+    }
+    .footer_room {
+        margin-right: 70px;
+    }
+}
+@media ( max-width:991px ) {
+    .container {
+        max-width: 750px;
+    }
+    .header_main_text h3 {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header_main_text {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header_main_text p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn_header_main {
+        margin-left: 41%;
+    }
+    .About_us_main h3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .About_us_main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .About_us_main p, h3 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .btn_about_us {
+        margin-left: 41%;
+    }
+    .reservation_main {
+        gap: 18%;
+
+        
+    }
+    .reservation_main_first {
+        margin-left: 0;
+        margin-left: -4%;
+    }
+    .reservation_main_three {
+        width: 50%;
+    }
+    .room_frame {
+        padding-top: 50px;
+    }
+    .testimoni_main {
+        width: 100%;
+    }
+    .footer_reservation {
+        margin-right: 60px;
+    }
+    .footer_main_left h3 {
+        width: 0;
+    }
+}
+
+@media ( max-width:840px ) {
+    .container {
+        width: 640px;
+    }
+    .btn_header_main {
+        margin-left: 39%;
+        margin-top: 5%;
+
+    }
+    .nav {
+        display: none;
+    }
+    .btn_about_us {
+        margin-left: 39%;
+
+    }
+    .About_us_main h3 {
+        width: 100%;
+    }
+    .About_us_main {
+        width: 100%;
+    }
+    .reservation_main_first {
+        margin-left: -12%;
+    }
+    .reservation_main {
+        gap: 24%;
+    }
+    .reservation_main_three {
+        width: 60%;
+    }
+    .footer_reservation {
+        margin-right: 45px;
+    }
+    .footer_room {
+        margin-right: 50px;
+    }
+}
+
+@media ( max-width:767px ) {
+    .container {
+        width: 540px;
+    }
+    .reservation_main_first {
+        margin-left: 14%;
+        width: 65%;
+        margin-top: 8%;
+    }
+    .reservation_main_two {
+        margin-left: 14%;
+        width: 65%;
+        margin-top: 8%;
+    }
+    .reservation_main_three {
+        margin-left: 14%;
+        width: 65%;
+        margin-top: 8%;
+    }
+    .reservation_inner_text_main {
+        width: 100%;
+    }
+    .btn_header_main {
+        margin-left: 35%;
+    }
+    .btn_about_us {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 16px;
+    }
+    .frame_inner_text_bottom {
+        width: 100%;
+    }
+    .frame_main_text_bottom {
+        margin-left: 0;
+        width: 100%;
+    }
+    .img_benefit_bottom {
+        margin-top: 7%;
+    }
+    .image_benefit {
+        margin-top: 7%;
+    }
+    .footer_main {
+        flex-wrap: wrap;
+    }
+    .footer_main_left {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .footer_foot {
+        margin-top: 7%;
+    }
+    .footer_main {
+        height: fit-content;
+    }
+    .footer {
+        height: fit-content;
+    }
+    .footer_foot {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+    .footer_room {
+        margin-right: 0;
+    }
+    .footer_reservation {
+        margin-right: 0;
+    }
+    .footer_main_left p {
+        width: 100%;
+        text-align: center;
+    }
+    .footer_main_left h3 {
+        width: 100%;
+    }
+    .socsety {
+        text-align: center;
+    }
+    .footer_reservation {
+        margin-top: 60px;
+    }
+    .footer_contact {
+        margin-top: 60px;
+    }
+    .header_first {
+        margin-left: 0;
+    }
+
+
+
+
+}
+@media screen and (max-width:580px) {
+    .container {
+        width: 100%;
+    }
+    .header_main_text h3 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .btn_header_main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+    }
+    .header_images {
+        gap: 0;
+        margin-top: 25%;
+    }
+    .header_two {
+        margin-top: 187px;
+
+    }
+    .room_right {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .Rectangle_5 {
+        width: 100%;
+        display: block;
+    }
+    .room_first {
+        width: 100%;
+    }
+    .room_two {
+        width: 100%;
+    }
+    .room_three {
+        width: 100%;
+    }
+    .Rectangle_7 {
+        width: 100%;
+        max-width: 588px;
+    }
+    .header_first {
+        width: 33%;
+    }
+    .header_two {
+        width: 33%;
+    }
+    .header_three {
+        width: 33%;
+    }
+    .room_right h3 {
+        width: 100%;
+    }
+    .room_right_two {
+        width: 100%;
+    }
+    .room_right_two p {
+        width: 100%;
+    }
+}
