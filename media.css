@@ -261,14 +261,94 @@
     .container {
         width: 640px;
     }
+    /* бургер-меню */
+    .menu-burger__header {
+        position: relative; /* задаем относительное позиционирование */
+        width: 40px; /* определяем размеры блока */
+        height: 35px;
+        display: block;
+        margin-left: 10px;
+    }
+    .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #515758;
+        margin: 0 auto;
+    }
+    .menu-burger__header span{
+        top: 17px;
+    }
+    .menu-burger__header:after, .menu-burger__header:before{
+        content: '';
+    }
+    .menu-burger__header:after{
+        bottom: 5px;
+    }
+    .menu-burger__header:before{
+        top: 5px;
+    }
+    .menu-burger__header {
+        position: fixed;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        margin-top: 35px;
+    }
+    /* крестик */
+    .menu-burger__header.open-menu span {
+        opacity:0; 
+        transition: 0.5s; 
+    }
+    .menu-burger__header.open-menu:before {
+        transform: rotate(38deg);
+        top: 16px;
+        transition: 0.4s;
+    }
+    .menu-burger__header.open-menu:after {
+        transform: rotate(-38deg);
+        bottom: 16px;
+        transition: 0.4s;
+    }
+
+    /* стилизация навигации */
+    .nav a {
+        margin: 40px 0px 40px 33px;
+        font-size: 16px;
+    }
+    /* видвижения */
+    .nav {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        /* background: rgb(245, 246, 246);
+        box-shadow: #ccc; */
+        width: 100%;
+        /* box-shadow: 0 5px 6px rgba(36, 36, 36, 0.37); */
+        top: -100%;
+        transition: all 0.4s ease;
+        text-align: center;
+    }
+    .nav.open-menu {
+        top: 80px;
+    }
+/* непрокручовалось */
+    .fixed-page{
+        overflow: hidden; /*запрещаем прокручивание страницы при открытом меню*/
+    }
+
+
+
+
+
     .btn_header_main {
         margin-left: 39%;
         margin-top: 5%;
 
     }
-    .nav {
-        display: none;
-    }
+    
     .btn_about_us {
         margin-left: 39%;
 
@@ -296,10 +376,11 @@
     }
 }
 
-@media ( max-width:767px ) {
+@media ( max-width:768px ) {
     .container {
         width: 540px;
     }
+
     .reservation_main_first {
         margin-left: 14%;
         width: 65%;
